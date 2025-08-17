@@ -15,7 +15,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/public/index.php">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="views/add.php">Add Vehicle</a></li>
         </ul>
       </div>

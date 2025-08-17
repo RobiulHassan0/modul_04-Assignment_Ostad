@@ -1,6 +1,6 @@
 <?php
 trait FileHandler{
-    private $FilePath = __DIR__ . "../../data.json";
+    private $FilePath = __DIR__ . "/../../data/data.json";
 
     public function FileRead(){
         if(!file_exists($this->FilePath)){

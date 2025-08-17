@@ -1,23 +1,27 @@
-<?php include "../header.php"; ?>
+<?php 
+
+
+include "../header.php"; 
+?>
 
 <div class="container my-4">
   <h1>Edit Vehicle</h1>
-  <form>
+  <form method="POST">
     <div class="mb-3">
       <label class="form-label">Vehicle Name</label>
-      <input type="text" class="form-control" value="Toyota Corolla">
+      <input type="text" name="name" class="form-control" value="<?= htmlspecialchars($vehicle['name']) ?>">
     </div>
     <div class="mb-3">
       <label class="form-label">Vehicle Type</label>
-      <input type="text" class="form-control" value="Sedan">
+      <input type="text" name="type" class="form-control" value="<?= htmlspecialchars($vehicle['type']) ?>">
     </div>
     <div class="mb-3">
       <label class="form-label">Price</label>
-      <input type="number" class="form-control" value="20000">
+      <input type="number" name="price" class="form-control" value="<?= htmlspecialchars($vehicle['price']) ?>">
     </div>
     <div class="mb-3">
       <label class="form-label">Image URL</label>
-      <input type="text" class="form-control" value="https://via.placeholder.com/300x200">
+      <input type="text" name="image" class="form-control" value="<?= htmlspecialchars($vehicle['image']) ?>">
     </div>
     <button type="submit" class="btn btn-primary">Update Vehicle</button>
     <a href="../index.php" class="btn btn-secondary">Cancel</a>
