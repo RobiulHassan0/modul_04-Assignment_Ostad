@@ -1,11 +1,18 @@
-<?php include "../header.php"; ?>
+<?php 
+require_once __DIR__ . "../../../app/classes/VehicleManager.php";
+$vehicleManager = new VehicleManager("", "", "", "");
+$vehicles = $vehicleManager->addVehicle($data);
+
+
+include "../header.php"; 
+?>
 
 <div class="container my-4">
   <h1>Add New Vehicle</h1>
-  <form>
+  <form method="POST">
     <div class="mb-3">
       <label class="form-label">Vehicle Name</label>
-      <input type="text" class="form-control" placeholder="Enter name">
+      <input type="text" class="form-control" placeholder="Enter vehicle name">
     </div>
     <div class="mb-3">
       <label class="form-label">Vehicle Type</label>
