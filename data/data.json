@@ -4,17 +4,5 @@
         "type": "car",
         "price": "500",
         "image": "https:\/\/imgd.aeplcdn.com\/1920x1080\/n\/cw\/ec\/154483\/vellfire-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80&q=80"
-    },
-    {
-        "name": "Rolls Royce Sweptails",
-        "type": "car",
-        "price": "45200",
-        "image": "https:\/\/www.autoshippers.co.uk\/blog\/wp-content\/uploads\/rolls-royce-sweptail.jpg"
-    },
-    {
-        "name": "Green Line",
-        "type": "Bus",
-        "price": "5200",
-        "image": "https:\/\/greenlinebd.com\/wp-content\/uploads\/2020\/08\/home-slider2.jpg"
     }
 ]

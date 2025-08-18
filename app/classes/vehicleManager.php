@@ -23,7 +23,10 @@ class VehicleManager extends ParentVehicle implements VehicleActions{
 
     public function deleteVehicle($id)
     {
-        
+        $vehicles = $this->FileRead();
+        unset($vehicles[$id]);
+        $vehicle = array_values($vehicles);
+        $this->FileWrite($vehicle);
     }
 
     public function getVehicle()

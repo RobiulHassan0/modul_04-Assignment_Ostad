@@ -23,9 +23,9 @@ include "./header.php";
           <h5 class="card-title">Name: <?= $vehicle['name'] ?></h5>
           <p class="card-text">Type: <?= $vehicle['type'] ?></p>
           <p class="card-text">Price: $<?= $vehicle['price'] ?></p>
-          <a href="./views/view.php" class="btn btn-primary btn-sm">View</a>
+          <a href="./views/view.php?id=<?php echo $id?>" class="btn btn-primary btn-sm">View</a>
           <a href="./views/edit.php?id=<?php echo $id?>" class="btn btn-warning btn-sm">Edit</a>
-          <a href="./views/delete.php" class="btn btn-danger btn-sm">Delete</a>
+          <a href="./views/delete.php?id=<?php echo $id?>" class="btn btn-danger btn-sm">Delete</a>
         </div>
       </div>
     </div>
