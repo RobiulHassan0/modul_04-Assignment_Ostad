@@ -1,5 +1,29 @@
 <?php 
+require_once __DIR__ . "/../../app/classes/VehicleManager.php";
+$vehicleManager = new VehicleManager("", "", "", "");
 
+$id = $_GET['id'] ?? null;
+
+$vehicles = $vehicleManager->getVehicle();
+
+if($id === null || !isset($vehicles[$id])){
+  header("Location: ../index.php");
+  exit;
+}
+
+$vehicle = $vehicles[$id];
+
+if($_SERVER['REQUEST_METHOD']=== 'POST'){
+  $vehicleManager->editVehicle($id, [
+    'name' => $_POST['name'],
+    'type' => $_POST['type'],
+    'price' => $_POST['price'],
+    'image' => $_POST['image']
+  ]);
+  header("Location: ../index.php");
+  exit;
+
+}
 
 include "../header.php"; 
 ?>

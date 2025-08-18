@@ -15,14 +15,16 @@ include "./header.php";
 
     <!-- Vehicle Card -->      
     <div class="col-md-4 mb-3">
-      <div class="card">
-        <img src="" class="card-img-top" alt="Car">
+      <div class="card h-100">
+        <div class="ratio ratio-16x9">
+          <img src="<?= htmlspecialchars($vehicle['image']) ?>" class="card-img-top img-fluid" alt="Car">
+        </div>
         <div class="card-body">
           <h5 class="card-title">Name: <?= $vehicle['name'] ?></h5>
           <p class="card-text">Type: <?= $vehicle['type'] ?></p>
           <p class="card-text">Price: $<?= $vehicle['price'] ?></p>
           <a href="./views/view.php" class="btn btn-primary btn-sm">View</a>
-          <a href="./views/edit.php" class="btn btn-warning btn-sm">Edit</a>
+          <a href="./views/edit.php?id=<?php echo $id?>" class="btn btn-warning btn-sm">Edit</a>
           <a href="./views/delete.php" class="btn btn-danger btn-sm">Delete</a>
         </div>
       </div>
