@@ -4,23 +4,20 @@ $vehicleManager = new VehicleManager("", "", "", "");
 
 $id = $_GET['id'] ?? null;
 
-$vehicles = $vehicleManager->getVehicle();
+$vehicle = $vehicleManager->viewVehicle($id);
 
-if($id === null || !isset($vehicles[$id])){
+if($vehicle === null){
   header("Location: ../index.php");
   exit;
 }
 
-$vehicle = $vehicles[$id];
-
-$vehicle = $vehicleManager->getDetails();
 
 include "../header.php"; 
 ?>
 
 <div class="container my-4">
   <h1>Vehicle Details</h1>
-  <div class="card" style="max-width: 500px;">
+  <div class="card mt-4" style="max-width: 500px;">
     <img src="<?=$vehicle['image'] ?>" class="card-img-top" alt="Car">
     <div class="card-body">
       <h5 class="card-title"><strong>Name:</strong> <?=$vehicle['name'] ?></h5>

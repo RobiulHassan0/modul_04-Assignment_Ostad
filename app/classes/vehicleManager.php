@@ -34,8 +34,15 @@ class VehicleManager extends ParentVehicle implements VehicleActions{
         return $this->FileRead();
     }
 
+    public function viewVehicle($id){
+        $vehicles = $this->FileRead();
+        $vehicle = $vehicles[$id] ?? null;
+        return $vehicle;
+    }
+
     public function getDetails()
     {
         
+
     }
 }
