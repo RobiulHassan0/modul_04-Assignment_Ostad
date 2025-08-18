@@ -1,14 +1,56 @@
 [
     {
-        "name": "Bugatti Centodieci",
-        "type": "car",
-        "price": "0000",
-        "image": "https:\/\/www.autoshippers.co.uk\/blog\/wp-content\/uploads\/bugatti-centodieci.jpg"
+        "name": "Honda Civic",
+        "type": "Sedan Car",
+        "price": "15000",
+        "image": "https:\/\/images.prismic.io\/carwow\/ZpVHWx5LeNNTxKjo_2023HondaCivicfrontquarterdynamic.png?auto=format&cs=tinysrgb&fit=max&q=60"
     },
     {
-        "name": "Rolls Royce Sweptails",
-        "type": "car",
-        "price": "500",
-        "image": "https:\/\/imgd.aeplcdn.com\/1920x1080\/n\/cw\/ec\/154483\/vellfire-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80&q=80"
+        "name": "Ford Ranger",
+        "type": "Pickup Truck",
+        "price": "25000",
+        "image": "https:\/\/www.edmunds.com\/assets\/m\/cs\/blt05a65c4fa65153ce\/674f4d99c63c38d9142f0373\/2025-ford-ranger-sport-f34.jpg"
+    },
+    {
+        "name": "BMW X5",
+        "type": "SUV",
+        "price": "45000",
+        "image": "https:\/\/hips.hearstapps.com\/hmg-prod\/images\/p90495464-1677001974.jpg?crop=0.720xw:0.608xh;0.250xw,0.329xh&resize=1200:*"
+    },
+    {
+        "name": "Suzuki Swift",
+        "type": "Hatchback",
+        "price": "9000",
+        "image": "https:\/\/images.prismic.io\/carwow\/ZuwzPLVsGrYSvl64_2024SuzukiSwiftUltraRedfrontquarterstatic.png?auto=format&cs=tinysrgb&fit=max&q=60"
+    },
+    {
+        "name": "NDC Dumping Truck",
+        "type": "Truck",
+        "price": "15500",
+        "image": "https:\/\/pbs.twimg.com\/media\/Gec5xYMWwAA2_ba.jpg"
+    },
+    {
+        "name": "Yamaha YZF-R15",
+        "type": "Bike",
+        "price": "3500",
+        "image": "https:\/\/imgcdn.zigwheels.co.th\/large\/gallery\/exterior\/99\/3290\/yamaha-yzf-r15-2019-slant-front-view-full-image-788588.jpg"
+    },
+    {
+        "name": "Electric Bus",
+        "type": "Bus",
+        "price": "2500",
+        "image": "https:\/\/media.wired.com\/photos\/5cf832279c2a7cd3975976ca\/4:3\/w_2000,h_1500,c_limit\/Transpo_XcelsiorChargeCharging_TA.jpg"
+    },
+    {
+        "name": "Hyper Loop Train",
+        "type": "Train",
+        "price": "85245200",
+        "image": "https:\/\/media.licdn.com\/dms\/image\/v2\/D5612AQHrhQid20tPag\/article-cover_image-shrink_600_2000\/article-cover_image-shrink_600_2000\/0\/1727783468935?e=2147483647&v=beta&t=6U6dXYK9qOcVaBmupzyJSYIg3uOGvgGx-emSZT7zXhk"
+    },
+    {
+        "name": "ThelaGhari",
+        "type": "Thela Gari",
+        "price": "100",
+        "image": "https:\/\/thumbs.dreamstime.com\/b\/labour-carry-essential-goods-labour-carry-onion-sacks-thelagari-handcart-to-market-april-kolkata-india-329262978.jpg"
     }
 ]

@@ -14,7 +14,7 @@ include "./header.php";
     <?php foreach ($vehicles as $id => $vehicle) :?> 
 
     <!-- Vehicle Card -->      
-    <div class="col-md-4 mb-3">
+    <div class="col-md-4 mb-4">
       <div class="card h-100">
         <div class="ratio ratio-16x9">
           <img src="<?= htmlspecialchars($vehicle['image']) ?>" class="card-img-top img-fluid" alt="Car">
